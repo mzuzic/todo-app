@@ -99,9 +99,6 @@ export default {
           .catch(function (error) {
             console.error(error);
           })
-          .then(function () {
-        // always executed
-          })
 
         this.$set(this.editing, todo.id, false);
       },
@@ -117,9 +114,6 @@ export default {
           })
           .catch(function (error) {
             console.error(error);
-          })
-          .then(function () {
-        // always executed
           })
       },
   },
@@ -144,9 +138,6 @@ export default {
           })
           .catch(function (error) {
             console.error(error);
-          })
-          .then(function () {
-        // always executed
           })
     }
   }
